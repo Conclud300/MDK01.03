@@ -1,1 +1,61 @@
-
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя первая страница</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Добро пожаловать!</h1>
+        <p>Это простая HTML страница с базовыми элементами:</p>
+        
+        <h2>Список примеров</h2>
+        <ul>
+            <li>Заголовки</li>
+            <li>Абзацы текста</li>
+            <li>Ссылки</li>
+            <li>Кнопки</li>
+        </ul>
+        
+        <h2>Ссылка</h2>
+        <p>Посетите <a href="https://www.google.com" target="_blank">Google</a></p>
+        
+        <h2>Кнопка</h2>
+        <button onclick="alert('Привет!')">Нажми меня</button>
+        
+        <h2>Изображение</h2>
+        <img src="https://via.placeholder.com/400x200" alt="Пример изображения" style="max-width: 100%;">
+    </div>
+</body>
+</html>
